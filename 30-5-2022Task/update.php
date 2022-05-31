@@ -2,7 +2,7 @@
 $ServerName = 'localhost';
 $UserName = 'root';
 $Password = '';
-$dbName = 'testapi';
+$dbName = 'firstApi';
 $dsn = "mysql:host=$ServerName;dbname=$dbName";
 $pdo = new PDO($dsn,$UserName,$Password);
 $id= $_POST['id'];
